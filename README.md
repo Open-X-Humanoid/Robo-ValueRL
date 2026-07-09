@@ -1,6 +1,6 @@
 # Robo-Valuerl
 
-[Project Page](https://gewu-lab.github.io/robo-valuerl/) | [Paper]() | [Model](https://huggingface.co/X-Humanoid/Robo-ValueRL) | [Dataset](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL)
+[Project Page](https://gewu-lab.github.io/robo-valuerl/) | [Paper](https://drive.google.com/file/d/1ngr-zCFzu_u6Qa37jSqOWClpatnRB-of/view?usp=sharing) | [Model](https://huggingface.co/X-Humanoid/Robo-ValueRL) | [Dataset](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL)
 
 ## Environment Setup
 
