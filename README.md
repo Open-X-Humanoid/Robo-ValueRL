@@ -1,10 +1,10 @@
-# Robo-Valuerl
+# Robo-ValueRL
 
-[Project Page](https://gewu-lab.github.io/robo-valuerl/) | [Paper](https://drive.google.com/file/d/1ngr-zCFzu_u6Qa37jSqOWClpatnRB-of/view?usp=sharing) | [Model](https://huggingface.co/X-Humanoid/Robo-ValueRL) | [Dataset](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL)
+[Project Page](https://gewu-lab.github.io/Robo-ValueRL/) | [Paper](https://drive.google.com/file/d/1c0dt50iH554GrY2PEDoP3XMLYZ0SuqqH/view?usp=drive_link) | [Model](https://huggingface.co/X-Humanoid/Robo-ValueRL) | [Dataset](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL)
 
 ## Environment Setup
 
-We have build a complete environment for Robo-Valuerl. You can install it by running the following command:
+We have build a complete environment for Robo-ValueRL. You can install it by running the following command:
 
 ```bash
 bash install_simple.sh
