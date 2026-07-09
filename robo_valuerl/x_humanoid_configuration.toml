@@ -1,0 +1,98 @@
+
+[basic]
+station_type = "TienKung2_ROS2"
+control_rate_hz = 150
+tele_agent_type = "ServoTeleCore"
+
+
+[hand]
+[hand.left]
+enable = true
+type = "Robotiq2f85Zmq" 
+hand_ip = "192.168.41.1"
+hand_set_port = "4252"
+hand_get_port = "4253"
+sub_hand_joints = true
+
+[hand.right]
+enable = true
+type = "Robotiq2f85Zmq"
+hand_ip = "192.168.41.1"
+hand_set_port = "4254"
+hand_get_port = "4255"
+sub_hand_joints = true
+
+[camera]
+[camera.top]
+enable = true
+type = "OrbbecCameraRos2"
+camera_model = "Orbbec_Gemini336"
+camera_color_channel = "rbg"
+camera_color_resolution = [1280, 720]
+camera_depth_resolution = [1280, 720]
+camera_name = "top"
+use_compress_rgb = true
+use_compress_depth = false
+[camera.left]
+enable = true
+type = "OrbbecCameraRos2"
+camera_model = "Orbbec_Gemini336"
+camera_color_channel = "rbg"
+camera_color_resolution = [1280, 720]
+camera_depth_resolution = [1280, 720]
+camera_name = "left"
+use_compress_rgb = true
+use_compress_depth = false
+[camera.right]
+enable = true
+type = "OrbbecCameraRos2"
+camera_model = "Orbbec_Gemini336"
+camera_color_channel = "rbg"
+camera_color_resolution = [1280, 720]
+camera_depth_resolution = [1280, 720]
+camera_name = "right"
+use_compress_rgb = true
+use_compress_depth = false
+
+
+[robot]
+enable = true
+[robot.arm.home]
+
+robot = [0.0, 0.0, 0.0, -1.57, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.57, 0.0, 0.0, 0.0]
+
+[robot.arm]
+mode = "position"
+[robot.head]
+home = [0, 0.4, 0]
+[robot.controller]
+enable_head_controller = false
+sub_head_status = false
+enable_dual_arm_controller = true
+enable_dual_arm_freq_change = true
+sub_arm_status = true
+#enable_moveit_controller= true
+
+enable_pin_kine = true
+
+[data_collect]
+save_type = "hdf5" # hdf5, pickle
+is_display_image = true
+is_display_images = true
+is_display_states = true
+save_path = "/home/ubuntu/Dev/"
+episode_length = 20000
+max_episode = 2000
+task_name = "ur2_place_eggplant_to_plate"
+task_description = "test"
+collector = "collector_001"
+
+
+[chattts]
+url = "http://10.10.100.100:9966/tts"
+http_timeout = 1.0
+
+
+[input_listener]
+enable_keyboard = true
+enable_zmq = false
