@@ -3,7 +3,7 @@
 <div id="top" align="center">
 
 [![Project Page](https://img.shields.io/badge/Project_Page-green)](https://gewu-lab.github.io/Robo-ValueRL/)
-[![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://drive.google.com/file/d/1c0dt50iH554GrY2PEDoP3XMLYZ0SuqqH/view?usp=drive_link)
+[![Paper](https://img.shields.io/badge/Paper-b31b1b)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v69hlTUAAAAJ&citation_for_view=v69hlTUAAAAJ:5nxA0vEk-isC)
 [![Model](https://img.shields.io/badge/huggingface-Robo--ValueRL_Model-orange?logo=huggingface&logoColor=white)](https://huggingface.co/X-Humanoid/Robo-ValueRL)
 [![Dataset](https://img.shields.io/badge/huggingface-Robo--ValueRL_Data-orange?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL)
 
@@ -242,7 +242,15 @@ The online script (`train_robo_value_rl_online_rl.py online_adaptation`) resumes
 
 
 ```bibtex
-
+@misc{xia2026robovaluerlreliablevalueestimation,
+      title={Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning},
+      author={Wenke Xia and Pei Ren and Wenbo Yu and Yizhuo Zhang and Jifan Li and Yixue Zhang and Yinuo Zhao and Qingyang Gao and Jianlong Fu and Jian Tang and Ji-Rong Wen and Zhengping Che and Di Hu},
+      year={2026},
+      eprint={2607.09866},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2607.09866},
+}
 ```
 
 
